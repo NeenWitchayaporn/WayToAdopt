@@ -1,0 +1,130 @@
+.navbar {
+    background: #fff;
+    height: 90px;
+    display: flex;
+    z-index: 999;
+}
+
+.navbar-container {
+    display: flex;
+    max-width: 1500px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    justify-content: end;
+    margin-top: 16px;
+}
+
+.nav-item {
+    height: 80px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    height: 100%;
+}
+
+
+.fa-bars {
+    color: #000000;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navbar-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-icon {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: -3%;
+
+}
+
+.nav-icon:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s ease-out;
+  }
+
+@media screen and (max-width: 1300px) {
+
+    .nav-icon {
+        transition: transform 0.5s; 
+    }
+    
+    .nav-icon:hover {
+        transform: translateY(-10px);
+    }
+
+    .nav-menu {
+    pointer-events: none;
+    width: 100%;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+    opacity: 0;
+  }
+
+    .nav-menu.active {
+    pointer-events: auto;
+    background: #fff;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 999;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    }
+    
+    .navbar-logo {
+    top: 5px;
+    left: 0;
+    margin-top: 16px;
+
+    }
+
+    .navbar-logo img {
+    max-width: 83%;
+    height: auto;
+    }
+
+    .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    }
+
+    .fa-times {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    }
+}

@@ -1,0 +1,57 @@
+.home{
+    width: 100%;
+    height: 100%;
+  }
+  .greeting {
+    margin-top: 15px;
+    text-align: end;
+  }
+  .hello {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+    color: #3c6685;
+  }
+  .name {
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 300;
+    color: #3c6685;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .introduce {
+    margin-top: 12px;
+    margin-bottom: 36px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #3c6685;
+  }
+  .intro {
+    color: #95c0de;
+  }
+  
+  .post {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 354px);
+    justify-content: space-between;
+    row-gap: 40px;
+    column-gap: 40px;
+    margin: 48px 0px;
+  }
+  
+  .no-post{
+    display: flex;
+    width:100%;
+    height :100%;
+    justify-content: center;
+    margin : 100px 0px;
+  }
+  
+  .no-post p{
+   font-size: 24px;
+   font-weight: 400;
+   color: #9f9f9f;
+  }

@@ -1,0 +1,42 @@
+.success-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 100px);
+}
+
+.back-home-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.link-style {
+  text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+}
+
+.success-content {
+    text-align: center;
+    line-height: 2;
+  }
+  
+.correct-icon {
+    width: 100px; 
+    margin-bottom: 29px;
+}
+
+.success-text {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 1300px) {
+    .success-container {
+      height: auto; 
+      padding: 45px 20px;
+    }
+  }

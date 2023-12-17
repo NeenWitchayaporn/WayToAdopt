@@ -1,0 +1,92 @@
+.text-label{
+    color:#414141;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text-question{
+    margin-top: 33px;
+    margin-bottom: 33px;
+    margin-left: 53px;
+}
+
+textarea {
+    cursor:pointer;
+}
+
+.input-question-box {
+    border-radius: 20px;
+    border: 2px solid #9F9F9F;
+    background: rgba(217, 217, 217, 0.00);
+    padding: 25px 45px 40px;
+}
+
+.text-subtitle {
+    color:#414141;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.input-box {
+    border-radius: 20px;
+    border: 2px solid #9F9F9F;
+    padding: 12px 22px;
+    height: 54px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 20px;
+}
+
+.input-box::placeholder {
+    color: #D9D9D9;
+    font-size: 20px;
+}
+
+.input-box-question {
+    display: flex;
+    width: 100%;
+}
+
+.error-border {
+    border: 2px solid #E77C7C;
+}
+
+.required{
+    font-size: 20px;
+    color: #E77C7C;
+    display: inline;
+    margin-left: 5px;
+}
+
+.add-question-btn {
+    width: 206px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #3C6685;
+    text-align: center;
+    font-size: 20px;
+    color: #3C6685;
+    background-color: transparent;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.delete-question-btn {
+    width: 206px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #E77C7C;
+    text-align: center;
+    font-size: 20px;
+    color: #E77C7C;
+    background-color: transparent;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

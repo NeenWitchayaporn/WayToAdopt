@@ -1,0 +1,23 @@
+.text-label{
+    color:#414141;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.create-post-block {
+    border-radius: 20px;
+    border: 2px solid #9F9F9F;
+    background: rgba(217, 217, 217, 0.00);
+    padding: 25px 45px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.submit-container {
+    margin-top: 33px;
+    text-align: center;
+}

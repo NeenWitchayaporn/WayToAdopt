@@ -1,0 +1,19 @@
+.view-result{
+    width: 100% !important;
+}
+.view-result-introduce{
+    margin-top: 37px;
+    font-size: 36px;
+    font-weight: 600;
+    color:#414141;
+}
+
+.result-box{
+    width: 100%;
+}
+
+.result-button-container {
+    padding-top: 33px;
+    display: flex;
+    justify-content: right;
+}

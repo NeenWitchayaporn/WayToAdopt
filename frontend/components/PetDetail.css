@@ -1,0 +1,50 @@
+/* Font: Kanit */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap');
+
+.main-container {
+    margin-top:36px;
+}
+
+.post-block {
+    border-radius: 20px;
+    border: 2px solid #9F9F9F;
+    background: rgba(217, 217, 217, 0.00);
+    padding: 23px 57px;
+    flex-direction: row;
+}
+
+.pet-pic-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pet-pic {
+    /* max-width: 345px; */
+    /* max-height: 248px;  */
+    max-height: 250px;
+    max-width: 90%;                            /* Ensure the image doesn't exceed the container's width */
+    height: auto; 
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.text-title {
+    color: #3C6685;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 6px;
+}
+
+.text-postInfo {
+    color: #95C0DE;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.no-padding-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

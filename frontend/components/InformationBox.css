@@ -1,0 +1,30 @@
+.attribute {
+    font-size: 24px;
+    font-weight: 500;
+    color: #3c6685;
+    text-align: start;
+    display: flex;
+    align-items: center;
+  }
+  
+  .value {
+    font-size: 24px;
+    font-weight: 500;
+    color: #95c0de;
+    text-align: start;
+    display: flex;
+    align-items: center;
+  }
+  
+  .value p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  @media (max-width: 767px) {
+    .attribute,
+    .value {
+      justify-content: center;
+    }
+  }

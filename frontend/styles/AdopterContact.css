@@ -1,0 +1,63 @@
+.content-adopter-contact {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .box-adopter-contact {
+    width: 60% !important;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid var(--Dark-grey-2, #9f9f9f);
+    background: rgba(217, 217, 217, 0);
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 36px !important;
+  }
+  
+  .row-adopter-contact {
+    display: inline-block;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 30px; 
+    width: 60%;
+    height: 100px;
+  
+    color: var(--Blue, #3c6685);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .row-2-adopter-contact {
+    display: inline-block;
+    text-align: left;
+    flex-direction: column;
+    width: 60%;
+    color: var(--Blue, #3c6685);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .text-group-adopter-contact {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  
+  .info-adopter-contact {
+    color: var(--Light-Blue, #95c0de);
+  
+    /* Subtitle2 Kanit */
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+  }
+  
+  

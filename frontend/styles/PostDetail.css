@@ -1,0 +1,25 @@
+.detail-button-container {
+    padding-top: 33px;
+    display: flex;
+    justify-content: right;
+}
+
+.link-style {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+}
+
+.no-post-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px
+}
+
+.no-post-text {
+    font-size: 32px;
+    color: #414141;
+    text-align: center;
+}

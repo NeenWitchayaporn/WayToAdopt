@@ -1,0 +1,26 @@
+.error-container {
+    display: flex;
+    margin-top: 5px
+}
+
+.error-icon {
+    display: flex;
+    margin: 0px;
+    max-width: 20px;
+    max-height: 35px;
+}
+
+.error-text {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #E77C7C;
+    
+}
+
+.short-error-text {
+    max-width: 260px;
+}
+
+.long-error-text {
+    max-width: 500px;
+}

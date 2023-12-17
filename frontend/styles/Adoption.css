@@ -1,0 +1,14 @@
+.link-style {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+}
+
+.adopt-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
