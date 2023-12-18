@@ -10,6 +10,10 @@ WayToAdopt is a web application for finding, adopting, or announcing homes for s
   6. Users who are looking for a home and users who want to adopt can communicate with each other.
   7. Users can search for and view detailed information about various announcements. The search criteria include the type of animal. Vaccination, sterilization, weaning, and use of litter boxes.
 
+# Link for view all artifact
+  - UI : https://www.figma.com/file/DBn34gtwUuIVbvfi4cZL17/WayToAdopt?type=design&node-id=1-2&mode=design&t=hjxRSx3yUeaqtkO7-0
+  - Report: https://drive.google.com/file/d/1Gp_n0WOgVC6npG-m6pM-PgTovNbsXDQQ/view
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
