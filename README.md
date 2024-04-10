@@ -12,7 +12,6 @@ WayToAdopt is a web application for finding, adopting, or announcing homes for s
 
 # Link for view all artifact
   - UI : https://www.figma.com/file/DBn34gtwUuIVbvfi4cZL17/WayToAdopt?type=design&node-id=1-2&mode=design&t=hjxRSx3yUeaqtkO7-0
-  - Report: https://drive.google.com/file/d/1Gp_n0WOgVC6npG-m6pM-PgTovNbsXDQQ/view
 
 # Getting Started with Create React App
 
